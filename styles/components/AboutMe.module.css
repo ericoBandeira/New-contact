@@ -1,0 +1,54 @@
+.profileContainer{
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20rem;
+    padding-right: 15rem;
+    background-color: #EB6859;
+    width: 100%;
+}
+
+.profileContainerText{
+    align-items: center;
+    text-align: center;
+}
+
+.profileContainerText > p{
+    color: rgba(254, 253, 242, 0.8);
+    font-size: 1.5rem;
+}
+
+.firstXp{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3.5rem;
+}
+
+.profileContainerTextTitle{
+    color: rgba(254, 253, 242, 0.8);
+    font-size: 4rem;
+}
+
+.profileContainerButton{
+    align-items: center;
+    text-align: center;
+}
+.profileContainerButton > p{
+   font-size: 1rem;
+   color: rgba(254, 253, 242, 0.8);
+}
+.profileContainerButton > button{
+    background-color: #6E41FE;
+    height: 4.5rem;
+    width: 14rem;
+    border-radius: 15px;
+
+    
+    align-items: center;
+    font-family: Cambria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: rgba(254, 253, 242, 0.8);
+    margin-bottom: 2rem;
+ }

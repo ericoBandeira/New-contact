@@ -1,0 +1,32 @@
+.experienceBar span{
+    font-family: Cambria;
+    color: rgba(254, 253, 242, 0.8);
+    padding: 2rem;
+}
+.experienceBarTitle{
+    font-size: 2rem;
+}
+
+.experienceBar > div{
+    flex: 1;
+    height: 8px;
+    width: 25rem;
+    border-radius: 5px;
+    background: #C4C4C4;
+    margin: 0 1.5rem;
+    margin-top: 0.5rem;
+    position: relative;
+}
+
+.experienceBar > div > div{
+    height: 8px;
+    border-radius: 5px;
+}
+
+span.currentExperience{
+    position: absolute;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.25rem;
+}

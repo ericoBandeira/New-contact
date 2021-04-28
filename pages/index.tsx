@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Header } from '../src/components/Header'
+import { AboutMe } from '../src/components/AboutMe'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -8,8 +9,8 @@ export default function Home() {
       <Head>
         <title> Meu lindo site</title>
       </Head>
-
       <Header/>
+      <AboutMe/>
     </div>
   )
 }
