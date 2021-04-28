@@ -1,0 +1,11 @@
+.experienceContainer{
+    background-color: #FC8862 ;
+    display: ;
+}
+.experienceContainer > div{
+    height: 50rem;
+    width: 5px;
+    border-radius: 4px;
+    background-color: #C4C4C4;
+    margin-left: 50%;
+}
