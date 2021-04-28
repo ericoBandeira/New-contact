@@ -1,0 +1,35 @@
+.profileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20rem;
+    padding-right: 15rem;
+    background-color: #FC7174;
+    width: 100%;
+}
+
+.profileContainer > div{
+    margin: 0;
+}
+.profileContainer > div > p{
+    font-family: Cambria;
+    color: rgba(254, 253, 242, 0.8);
+    margin: 1rem;
+}
+
+.profileTitle{
+    font-size: 5rem;
+}
+
+.profileSubTitle{
+    font-size: 3rem;
+}
+
+
+.profileContainer > div > img{
+    width: 26.5rem;
+    height: 26.5rem;
+    margin: 3rem;
+    border-radius: 50%;
+}
+
