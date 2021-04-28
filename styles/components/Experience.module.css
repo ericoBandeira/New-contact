@@ -1,6 +1,6 @@
 .experienceContainer{
     background-color: #FC8862 ;
-    display: ;
+    display: flex;
 }
 .experienceContainer > div{
     height: 50rem;

@@ -5,7 +5,6 @@ export function Experience(){
         <header className={styles.experienceContainer}>  
             
             <div>
-                
             </div>
         </header>
     );

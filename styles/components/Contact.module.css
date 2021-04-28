@@ -1,0 +1,27 @@
+.contactContainer{
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #FDBB63;
+    width: 100%;
+}
+
+.contactContainer > p{
+    font-family: Cambria;
+    color: rgba(254, 253, 242, 0.8);
+    font-size: 4rem;
+    padding-top: 2rem;
+    margin: 0;
+}
+
+.contactContainer > div{
+    display: flex;   
+    justify-content: space-between;
+    padding: 4rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+.contactContainerImage{
+    padding-left: 3rem;
+}

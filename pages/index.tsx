@@ -3,6 +3,7 @@ import { Header } from '../src/components/Header'
 import { AboutMe } from '../src/components/AboutMe'
 import styles from '../styles/Home.module.css'
 import Experience from '../src/components/Experieance'
+import Contact from '../src/components/Contact'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header/>
       <AboutMe/>
       <Experience/>
+      <Contact/>
     </div>
   )
 }
