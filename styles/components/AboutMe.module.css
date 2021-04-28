@@ -14,6 +14,7 @@
 
 .profileContainerText > p{
     color: rgba(254, 253, 242, 0.8);
+    font-family: Cambria;
     font-size: 1.5rem;
 }
 
@@ -26,6 +27,7 @@
 
 .profileContainerTextTitle{
     color: rgba(254, 253, 242, 0.8);
+    font-family: Cambria;
     font-size: 4rem;
 }
 
@@ -36,6 +38,7 @@
 .profileContainerButton > p{
    font-size: 1rem;
    color: rgba(254, 253, 242, 0.8);
+   font-family: Cambria;
 }
 .profileContainerButton > button{
     background-color: #6E41FE;
