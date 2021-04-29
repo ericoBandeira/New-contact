@@ -35,17 +35,21 @@
 .profileContainerButton{
     align-items: center;
     text-align: center;
+    
+    padding-bottom: 2.5rem;
 }
 .profileContainerButton > p{
-   font-size: 1rem;
+   font-size: 1.2rem;
    color: rgba(254, 253, 242, 0.8);
    font-family: Cambria;
+   padding-bottom: 0.5rem;
 }
-.profileContainerButton > button{
+.profileContainerButton > a{
     background-color: #6E41FE;
     height: 4.5rem;
     width: 14rem;
     border-radius: 15px;
+    padding: 1rem;
 
     
     align-items: center;
@@ -54,5 +58,10 @@
     font-weight: normal;
     font-size: 1.5rem;
     color: rgba(254, 253, 242, 0.8);
-    margin-bottom: 2rem;
+ }
+
+ .profileContainerButton > a:hover{
+    transform: scale(0.9);
+    transition: all 0.3s;
+    opacity: 0.8;
  }

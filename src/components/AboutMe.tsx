@@ -53,9 +53,9 @@ export function AboutMe(){
                 <p>
                     for more tech informations
                 </p>
-                <button onClick={downloadTxtFile}>
+                <a href='/EricoBandeira_CV_English.pdf' download>
                     Download CV
-                </button>
+                </a>
             </div>
         </div>
     );
