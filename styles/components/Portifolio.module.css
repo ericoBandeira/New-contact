@@ -49,13 +49,19 @@
     margin-left: auto;
     margin-right: auto; 
 }
+
+.containerKanban1 > a :hover{
+    transform: scale(0.95);
+    transition: all 0.3s;
+}
+
 .kanbanAddIcon{
     background-color: rgba(65, 184, 84);
     border-radius: 50%;
 }
 
 .containerKanban1 > div {
-    width: 70%;
+    width: 80%;
     padding: 1.25rem;
     margin-left: auto;
     margin-right: auto; 

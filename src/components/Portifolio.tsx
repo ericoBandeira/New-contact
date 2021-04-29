@@ -38,7 +38,9 @@ export function Portfolio(){
                     <div style={{borderColor: "#41B854", background: "rgba(65, 184, 84, 0.3)"}}>
                         <span>And this space was made for you!</span>
                     </div>
-                    <AddIcon color="disabled" fontSize="large" className={styles.kanbanAddIcon}/>
+                    <a href="mailto:ericobandeira@hotmail.com">
+                        <AddIcon color="action" style={{ fontSize: "3.5rem",color: "rgba(254, 253, 242, 1)" }} className={styles.kanbanAddIcon}/>
+                    </a>                    
                 </div>
 
                 <div className={styles.containerKanban1} style={{borderColor: "#6E41FF"}}>
@@ -89,7 +91,7 @@ export function Portfolio(){
 
                     <div style={{borderColor: "#EC008C", background: "rgba(236, 0, 140, 0.3"}}>
                         <p style={{color: "#EC008C", fontSize:"2rem"}}> New Contact</p>
-                        <p style={{color: "#737373", fontSize:"1rem"}}> This website </p>
+                        <p style={{color: "#737373", fontSize:"1rem"}}> This website! </p>
                         <div>
                             <Image onClick={handlegithubNewContact} src="/github.png" alt="github" width="50" height="50" />
                         </div>   
