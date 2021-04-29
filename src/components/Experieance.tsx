@@ -1,12 +1,12 @@
 import styles from '../../styles/components/Experience.module.css';
+import TimeLineExperience from '../components/TimeLineExperience'
 
 export function Experience(){
     return(
-        <header className={styles.experienceContainer}>  
-            
-            <div>
-            </div>
-        </header>
+        <div className={styles.experienceContainer}>  
+            <p>My Experience</p>
+            <TimeLineExperience/>
+        </div>
     );
 }
 

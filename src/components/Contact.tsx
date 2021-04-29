@@ -15,6 +15,7 @@ export function Contact(){
     function handleemail(){
         window.location.href = "mailto:ericobandeira@hotmail.com";
     }
+
     return(
         <div className={styles.contactContainer}>  
             <p>

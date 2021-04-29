@@ -1,0 +1,62 @@
+.Paper{
+    padding: 1.75rem;
+    width: 50%;
+    margin-left: 1.5rem ;
+    border-radius: 1rem !important;
+    border-width: medium;
+    border-style: solid;
+    border-color: #6E41FF;
+}
+
+.Paper > p{
+    font-family: Cambria;
+    font-size: 1rem;
+    color: #737373;
+    font-weight: bold;
+}
+
+.Paper > span{
+    font-family: Cambria;
+    font-size: 1.5rem;
+    color: #6E41FF;
+    font-weight: bold;
+}
+
+.Paper2{
+    padding: 1.75rem;
+    text-align: left;
+    width: 50%;
+    margin-right: 1.5rem ;
+    border-radius: 1rem !important;
+    border-width: medium;
+    border-style: solid;
+    border-color: #EC008C;
+    float: right;
+}
+
+.Paper2 > p{
+    font-family: Cambria;
+    font-size: 1rem;
+    color: #737373;
+    font-weight: bold;
+}
+
+.Paper2 > span{
+    font-family: Cambria;
+    font-size: 1.5rem;
+    color: #EC008C;
+    font-weight: bold;
+}
+
+.secondaryTail {
+    background-color: green;
+}
+
+.firstDot{
+    background-color: #33A9AC ;
+}
+
+.container{
+    padding-bottom:  4rem !important;
+    margin-bottom: 0 !important;
+}

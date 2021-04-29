@@ -1,11 +1,14 @@
 .experienceContainer{
     background-color: #FC8862 ;
-    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
 }
-.experienceContainer > div{
-    height: 50rem;
-    width: 5px;
-    border-radius: 4px;
-    background-color: #C4C4C4;
-    margin-left: 50%;
+.experienceContainer > p{
+    font-family: Cambria;
+    color: rgba(254, 253, 242, 0.8);
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 2rem;
 }
