@@ -4,16 +4,17 @@ import Image from 'next/image'
 export function Contact(){
 
     function handlegithub(){
-        window.location.href = "https://github.com/ericoBandeira";
+        window.open("https://github.com/ericoBandeira","_blank");
     }
     function handlelinkedin(){
-        window.location.href = "https://www.linkedin.com/in/ericobandeira/";
+        window.open("https://www.linkedin.com/in/ericobandeira/","_blank");
     }
     function handletelegram(){
-        window.location.href = "https://t.me/EricoBandeira";
+        window.open("https://t.me/EricoBandeira","_blank");
     }
     function handleemail(){
-        window.location.href = "mailto:ericobandeira@hotmail.com";
+        window.open("mailto:ericobandeira@hotmail.com","_blank");
+
     }
 
     return(
@@ -22,7 +23,7 @@ export function Contact(){
                 Contact
             </p>
             <div>
-               <Image onClick={handlegithub} src="/github.png" alt="github" width="100" height="100" />
+               <Image className={styles.contactContainerImage} onClick={handlegithub} src="/github.png" alt="github" width="100" height="100" />
                <Image onClick={handlelinkedin} src="/linkedin.png" alt="github" width="100" height="100" />
                <Image onClick={handletelegram} src="/telegram.png" alt="github" width="100" height="100" />
                <Image onClick={handleemail} src="/email.png" alt="github" width="100" height="100" />

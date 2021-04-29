@@ -5,7 +5,7 @@ export function Header(){
         <div className={styles.profileContainer}>
             <div>
                 <p className={styles.profileSubTitle}>Welcome! I'm</p>
-                <p className={styles.profileTitle}>Érico bandeira</p>
+                <p className={styles.profileTitle}>Érico Bandeira</p>
                 <p className={styles.profileSubTitle}>Software Engineer</p>
             </div>
             <div>

@@ -21,7 +21,7 @@
     padding-left: 30rem;
     padding-right: 30rem;
 }
-
-.contactContainerImage{
-    padding-left: 3rem;
+.contactContainer > div :hover{
+    transform: scale(0.95);
+    transition: all 0.3s;
 }
