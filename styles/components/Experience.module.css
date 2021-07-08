@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0;
+    width: fit-content;
 }
 .experienceContainer > p{
     font-family: Cambria;
@@ -12,4 +13,10 @@
     margin: 0;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+@media (max-width:720px){
+    .experienceContainer{
+        width: max-content;
+    }    
 }

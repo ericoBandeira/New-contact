@@ -60,3 +60,14 @@
     padding-bottom:  4rem !important;
     margin-bottom: 0 !important;
 }
+
+@media (max-width:720px){
+    .Paper{
+        padding: 1.65rem;
+        width: 95%;
+    }
+    .Paper2{
+        padding: 1.65rem;
+        width: 95%;
+    }
+}

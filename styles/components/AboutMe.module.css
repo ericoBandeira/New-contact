@@ -3,8 +3,7 @@
     justify-content: space-between;
     padding-left: 20rem;
     padding-right: 15rem;
-    background-color: #EB6859;
-    width: 100%;
+    background-color: #EB6859;;
 }
 
 .profileContainerText{
@@ -65,3 +64,20 @@
     transition: all 0.3s;
     opacity: 0.8;
  }
+
+@media (max-width:720px){
+    .profileContainer{
+        align-items: center;
+        padding-left:6.5rem;
+        padding-right:6.5rem;
+        background-color: #EB6859;
+        width: min-content;
+    }
+    .firstXp{
+        display: inline;
+        justify-content: space-around;
+        width: 100%;
+        padding-bottom: 3.5rem;
+    } 
+    
+}

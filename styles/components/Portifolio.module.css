@@ -47,3 +47,12 @@
 }
 
 
+@media (max-width:720px){
+    .container{
+        width: fit-content;
+        padding-left: 1.9rem;
+        padding-right: 1.9rem;
+    }
+}
+
+

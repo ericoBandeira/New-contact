@@ -30,3 +30,9 @@ span.currentExperience{
     padding: 1rem;
     font-size: 1.25rem;
 }
+
+@media (max-width:720px){
+    .experienceBar{
+        padding-bottom: 2rem;
+    }
+}
