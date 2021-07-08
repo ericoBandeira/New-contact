@@ -36,6 +36,10 @@ export function Portfolio(){
         window.open("mailto:ericobandeira@hotmail.com","_blank");
     }
 
+    function handleSite(){
+        window.open("https://usend.com/debit-card/","_blank");
+    }
+
 
     return(
         <div className={styles.container}>
@@ -101,6 +105,13 @@ export function Portfolio(){
                         <p className={styles.mosaicSubTitle}>Mobile app to schedule<br/>the watering of<br/>your plants</p>
                         <div>
                             <Image onClick={handlegithubPlantManager} src="/github.png" alt="github" width="50" height="50" />
+                        </div>   
+                    </div>
+                    <div style={{background: "rgba(110, 65, 255, 0.3)"}} className={styles.mosaicItem}>
+                        <p style={{color: "#6E41FF"}} className={styles.mosaicTitle}>USEND Website</p>
+                        <p className={styles.mosaicSubTitle}>Website to promote the USEND<br/>company debit card</p>
+                        <div>
+                            <Image onClick={handlegithubPokedex} src="/github.png" alt="github" width="50" height="50" />
                         </div>   
                     </div>
                 </div>
