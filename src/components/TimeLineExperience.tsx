@@ -11,6 +11,7 @@ import FlashOnIcon from '@material-ui/icons/FlashOn';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import Paper from '@material-ui/core/Paper';
 import DeleteIcon from '@material-ui/icons/Delete';
+import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 
 import styles from '../../styles/components/TimeLineExperience.module.css'
 
@@ -76,12 +77,29 @@ export default function TimeLineExperience() {
           <TimelineDot color="secondary">
             <DriveEtaIcon />
           </TimelineDot>
+          <TimelineConnector className={styles.secondaryTail} />
         </TimelineSeparator>
         <TimelineContent >
           <Paper elevation={3} className={styles.Paper2}>
-            <p>march 2021 - at the moment</p>
+            <p>march 2021 - June 2021</p>
             <span>AutoForce</span>
             <p>Full-Stack Developer</p>
+          </Paper>
+        </TimelineContent>
+      </TimelineItem>
+
+
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="primary">
+            <AttachMoneyIcon />
+          </TimelineDot>
+        </TimelineSeparator>
+        <TimelineContent >
+          <Paper elevation={3} className={styles.Paper}>
+            <p>June 2021 - at the moment</p>
+            <span>USEND</span>
+            <p>Front-end Developer</p>
           </Paper>
         </TimelineContent>
       </TimelineItem>

@@ -23,10 +23,18 @@ export function Contact(){
                 Contact
             </p>
             <div>
-               <Image onClick={handlegithub} src="/github.png" alt="github" width="100" height="100" />
-               <Image onClick={handlelinkedin} src="/linkedin.png" alt="github" width="100" height="100" />
-               <Image onClick={handletelegram} src="/telegram.png" alt="github" width="100" height="100" />
-               <Image onClick={handleemail} src="/email.png" alt="github" width="100" height="100" />
+                <div>
+                    <Image onClick={handlegithub} src="/github.png" alt="github" width="100" height="100" />
+                </div>
+                <div>
+                    <Image onClick={handlelinkedin} src="/linkedin.png" alt="github" width="100" height="100" />
+                </div>
+                <div>
+                    <Image onClick={handletelegram} src="/telegram.png" alt="github" width="100" height="100" />
+                </div>
+                <div>
+                    <Image onClick={handleemail} src="/email.png" alt="github" width="100" height="100" />
+                </div>
             </div>
         </div>
     );

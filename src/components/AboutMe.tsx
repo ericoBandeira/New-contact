@@ -13,7 +13,7 @@ export function AboutMe(){
       }
 
     return(
-        <div className={styles.profileContainer}>
+        <div className={styles.profileContainer} id="about">
             <div className={styles.profileContainerText}>
                 <span className={styles.profileContainerTextTitle}>
                     About me!

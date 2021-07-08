@@ -12,71 +12,38 @@
     font-family: Cambria;
     color: rgba(254, 253, 242, 0.8);
 }
-.containerKanban{
+
+.mosaicContainer{
     display: flex;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    justify-content: center;
+    padding-bottom: 3rem;
 }
 
-.containerKanban1{
-    background-color: white;
-    height: auto;
-    width: 80%;
-    padding: 1rem;
-    margin: 4rem;
-    border-radius: 1.5rem;
-    border-width: medium;
-    border-style: solid;
-}
-
-
-.containerKanban1 > div > span{
+.mosaicTitle{
     font-family: Cambria;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5rem;
-    display: flex;
-    color: #A6A6A6;
+    font-size: 2rem;
 }
 
-.containerKanban1 > p {
+.mosaicSubTitle{
     font-family: Cambria;
-    font-size: 1.25rem;
-    color: rgba(254, 253, 242, 0.8);
-    width: 70%;
-    padding: 1.25rem;
-    border-radius: 1rem;
-    margin-left: auto;
-    margin-right: auto; 
+    font-size: 1rem;
+
+    color: #FFFFFF;    
 }
 
-.containerKanban1 > a :hover{
+.mosaicItem{
+    margin: 0.5rem;
+    padding: 2rem;
+}
+
+.mosaicItem > div{
+    cursor: pointer;
+}
+
+.mosaicItem > div:hover{
+    cursor: pointer;
     transform: scale(0.95);
     transition: all 0.3s;
 }
 
-.kanbanAddIcon{
-    background-color: rgba(65, 184, 84);
-    border-radius: 50%;
-}
 
-.containerKanban1 > div {
-    width: 80%;
-    padding: 1.25rem;
-    margin-left: auto;
-    margin-right: auto; 
-    border-radius: 1.5rem;
-    border-width: medium;
-    border-style: solid;
-    margin-bottom: 2rem;
-}
-.containerKanban1 > div > p {
-    font-family: Cambria;
-    text-align: left;
-    margin: 0;
-    margin-bottom: 0.5rem;
-}
-.containerKanban1 > div > div :hover {
-    transform: scale(0.95);
-    transition: all 0.3s;
-}
