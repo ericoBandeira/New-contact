@@ -2,7 +2,6 @@
     height: 100vh;
     width: 100vw;
     background-color: #FC7174;
-    width: fit-content;
 }
 .profileContainer{
     display: flex;
@@ -47,6 +46,7 @@
 @media (max-width:720px){
     .container{
         height: 180vh;
+        width: fit-content;
         padding-top: 5rem;
     }
     .profileContainer{
@@ -54,6 +54,15 @@
         align-items: center;
         justify-content: center;
         padding: 0 15rem 0 15rem;
+        background-color: #FC7174;
+    }
+}
+@media (max-width:1030px){
+    .profileContainer{
+        display: inline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
         background-color: #FC7174;
     }
 }

@@ -13,14 +13,18 @@
     padding-top: 2rem;
     margin: 0;
 }
-
-.contactContainer > div{
-    cursor: pointer;
-    display: flex;   
+.contactContainer>div{
+    display: flex;  
+    padding: 4rem; 
+    padding-left: 15rem;
+    padding-right: 15rem;
     justify-content: space-between;
-    padding: 4rem;
 }
-.contactContainer > div:hover{
+
+.contactContainer > div > div{
+    cursor: pointer;
+}
+.contactContainer > div > div:hover{
     transform: scale(0.95);
     transition: all 0.3s;
 }
@@ -32,5 +36,10 @@
     .contactContainer > p{
         padding-right: 14rem ;
         padding-left: 14rem;
+    }
+    .contactContainer>div{
+        display: flex;  
+        padding: 4rem; 
+        justify-content: space-between;
     }
 }
